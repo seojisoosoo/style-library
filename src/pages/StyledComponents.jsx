@@ -5,7 +5,7 @@ export default function StyledComponents() {
   return (
     <>
       <Title>안녕하세요</Title>
-      <Button>Click me</Button>
+      <Button $color={"blue"}>Click me</Button>
     </>
   );
 }
@@ -25,7 +25,7 @@ const Button = styled.button`
   font-family: KOTRAHOPE;
 
   color: rgb(255, 255, 255);
-  background-color: rgb(166, 199, 239);
+  background-color: ${({ $color, theme }) => $color === "blue" && theme.colors.blue};
 
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 `;

@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import Stitches from "./pages/Stitches";
 import StyledComponents from "./pages/StyledComponents";
 import Tailwind from "./pages/Tailwind";
 import { GlobalStyle } from "./style/globalStyle";
@@ -10,6 +11,7 @@ export default function App() {
       <GlobalStyle />
       <Tailwind />
       <StyledComponents />
+      <Stitches />
     </ThemeProvider>
   );
 }

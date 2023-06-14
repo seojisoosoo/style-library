@@ -11,8 +11,6 @@ const fonts = {
   text: css`
     font-family: "KOTRAHOPE";
     font-style: normal;
-    /* font-weight: 500;
-    letter-spacing: 0.07em; */
     font-size: 3rem; /* 48px */
     line-height: 1;
   `,
